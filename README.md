@@ -1,13 +1,14 @@
 #####################################################################################################
-
-EASY RGB LED'S WITH OOP
-
+#                                                                                                   #
+#                                     EASY RGB LED'S WITH OOP                                       #
+#                                                                                                   #
 #####################################################################################################
 
-Check out examples for basic use examples.
-#####################################
-The following methods are available:#
-#####################################
+Check out the examples folder for basic use examples.
+
+######################################
+#The following methods are available:#
+######################################
 
 .red
 .green
