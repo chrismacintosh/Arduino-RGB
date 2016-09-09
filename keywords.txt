@@ -1,0 +1,6 @@
+rgbLED	KEYWORD1
+initializing	KEYWORD2
+red	KEYWORD3
+green	KEYWORD4
+blue	KEYWORD5
+custom	KEYWORD6
