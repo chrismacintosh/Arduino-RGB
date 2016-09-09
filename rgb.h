@@ -6,6 +6,8 @@
 class rgbLED
 {
   public:
+	void off();
+	void ran();
     void blink(int interval);
     void blue();
     void red();

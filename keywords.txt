@@ -4,3 +4,5 @@ red	KEYWORD3
 green	KEYWORD4
 blue	KEYWORD5
 custom	KEYWORD6
+off	KEYWORD7
+ran	KEYWORD8

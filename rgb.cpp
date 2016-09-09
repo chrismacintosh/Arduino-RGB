@@ -20,17 +20,29 @@ void rgbLED::custom(int r, int g, int b){
 }
 
 void rgbLED::blink(int interval){
-      unsigned long current = millis();
-      if(current - previous >= interval){
-        previous = current;
-
+	unsigned long current = millis();
+	if(current - previous >= interval){
+		previous = current;
         if (initstate == 0){
           initstate = 255;
         } else {
           initstate = 0;
         }
         analogWrite(_pin1, initstate);
-      }
+	}
+}
+void rgbLED::ran(){
+	int r = random(0,255);
+	int g = random(0,255);
+	int b = random(0,255);
+	analogWrite(_pin1,r);
+	analogWrite(_pin2,g);
+	analogWrite(_pin3,b);
+}
+void rgbLED::off(){
+	analogWrite(_pin1,0);
+	analogWrite(_pin2,0);
+	analogWrite(_pin3,0);
 }
 
 void rgbLED::red(){
