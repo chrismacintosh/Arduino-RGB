@@ -10,11 +10,13 @@ Check out the examples folder for basic use examples.
 #The following methods are available:#
 ######################################
 
-.red
-.green
-.blue
-.custom(r,g,b); where rgb are all values from 0 to 255.
-.blink(int interval); where the interval is a value in MS.
+.red<br>
+.green<br>
+.blue<br>
+.custom(r,g,b); where rgb are all values from 0 to 255.<br>
+.blink(int interval); where the interval is a value in MS.<br>
+.random();<br>
+.off();<br>
 
 ########################
 #Why this benefits you:#
@@ -30,3 +32,4 @@ The .blink method will allow you to blink the LED while other things are going o
 #What the future holds:#
 ########################
 I'm going to slowly add a ridiculous amount of prenamed colors (.magenta, .violet, I mean, there will be a ton of options).
+Some other interesting things to come as well.
